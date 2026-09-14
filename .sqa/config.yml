@@ -15,58 +15,58 @@ sqa_criteria:
     repos:
       github.com/ARGOeu/argo-ams-library git:
         commands:
-        - /usr/bin/env sh .sqa/script.storm_tolerant_wolf.sh
-        container: qc.acc_ginger_carefree_cobra
+        - /usr/bin/env sh .sqa/script.alabaster_sociable_turkey.sh
+        container: qc.acc_scarlet_sad_stork
   QC.Doc:
     repos:
       github.com/ARGOeu/argo-ams-library find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.grege_timid_butterfly.sh
-        container: qc.doc_periwinkle_perceptive_catfish
+        - /usr/bin/env sh .sqa/script.isabelline_blissful_parrot.sh
+        container: qc.doc_ochre_fierce_komodo
       github.com/ARGOeu/argo-ams-library git:
         commands:
-        - /usr/bin/env sh .sqa/script.marina_whimsical_kangaroo.sh
-        container: qc.doc_cinnabar_dramatic_tiger
+        - /usr/bin/env sh .sqa/script.bronze_realistic_termite.sh
+        container: qc.doc_navy_unique_griffin
       github.com/ARGOeu/argo-ams-library markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.dawn_thoughtful_goose.sh
-        container: qc.doc_heather_courageous_kraken
+        - /usr/bin/env sh .sqa/script.walnut_aware_seahorse.sh
+        container: qc.doc_carmine_shy_uakari
       github.com/ARGOeu/argo-ams-library restructuredtext-lint:
         commands:
-        - /usr/bin/env sh .sqa/script.amethyst_industrious_gerbil.sh
-        container: qc.doc_saffron_dramatic_angelfish
+        - /usr/bin/env sh .sqa/script.cosmos_reliable_python.sh
+        container: qc.doc_white_adventurous_clownfish
   QC.Lic:
     repos:
       github.com/ARGOeu/argo-ams-library licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.ultramarine_plucky_ocelot.sh
-        container: qc.lic_wisteria_lively_dhole
+        - /usr/bin/env sh .sqa/script.glaucous_insightful_beaver.sh
+        container: qc.lic_wave_apathetic_cobra
   QC.Sec:
     repos:
       github.com/ARGOeu/argo-ams-library bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.persimmon_reserved_dugong.sh
-        container: qc.sec_seafoam_stubborn_dolphin
+        - /usr/bin/env sh .sqa/script.fern_flexible_walrus.sh
+        container: qc.sec_cadet_energetic_grasshopper
   QC.Sty:
     repos:
       github.com/ARGOeu/argo-ams-library flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.scarlet_enigmatic_octopus.sh
-        container: qc.sty_violet_anxious_fox
+        - /usr/bin/env sh .sqa/script.aqua_positive_nighthawk.sh
+        container: qc.sty_porcelain_gentle_stork
       github.com/ARGOeu/argo-ams-library hadolint:
         commands:
-        - /usr/bin/env sh .sqa/script.flax_tenacious_spren.sh
-        container: qc.sty_reef_brilliant_manatee
+        - /usr/bin/env sh .sqa/script.butter_observant_okapi.sh
+        container: qc.sty_poppy_easygoing_nymph
   QC.Uni:
     repos:
       github.com/ARGOeu/argo-ams-library pytest:
         commands:
-        - /usr/bin/env sh .sqa/script.persimmon_humble_moose.sh
-        container: qc.uni_harlequin_peppy_spren
+        - /usr/bin/env sh .sqa/script.silver_exuberant_tarantula.sh
+        container: qc.uni_watermelon_thoughtful_spider
   QC.Ver:
     repos:
       github.com/ARGOeu/argo-ams-library get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.teal_whimsical_uakari.sh
-        container: qc.ver_flint_loving_swan
+        - /usr/bin/env sh .sqa/script.cobalt_smart_pegasus.sh
+        container: qc.ver_yellow_motivated_lemur
 timeout: 5400
